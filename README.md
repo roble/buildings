@@ -97,8 +97,9 @@ The task involves creating a feature that allows users to download a time series
 
 - The design prioritizes simplicity and accessibility, leveraging color contrasts and clear labels.
 - Fully responsive interface for desktops and tablets.
-- **Figma Design**: [View Design](https://www.figma.com/design/5fS8HvhLB86etBmvHtQN5x/OPN-Buildings?node-id=0-1&t=OslvGxoESSX9cmB7-1)
 - **Interactive Prototype**: [View Prototype](https://www.figma.com/proto/5fS8HvhLB86etBmvHtQN5x/OPN-Buildings?node-id=0-1&t=OslvGxoESSX9cmB7-1)
+- **Figma Design**: [View Design](https://www.figma.com/design/5fS8HvhLB86etBmvHtQN5x/OPN-Buildings?node-id=0-1&t=OslvGxoESSX9cmB7-1)
+
 
 ---
 
