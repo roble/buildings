@@ -1,0 +1,222 @@
+// Variables
+$background-color: #f4f7fd;
+$primary-color: #5472d4;
+$primary-color-text: #ffffff;
+$text-color: #333333;
+$border-radius: 24px;
+$spacing: 16px;
+$double-spacing: $spacing * 2;
+$box-shadow: 0 0 32px rgba(75, 88, 109, 0.25);
+$container-max-width: 1200px;
+
+// Global Styles
+html,
+body {
+  background-color: $background-color;
+  padding: 0;
+  margin: 0;
+  color: $text-color;
+}
+
+// Navbar
+.navbar {
+  background-color: #fff;
+  color: $primary-color;
+  font-size: 1.5rem;
+  font-weight: bold;
+  box-shadow: $box-shadow;
+  padding: 6px;
+  text-align: left;
+}
+
+// Layout Container
+.container {
+  max-width: $container-max-width;
+  margin: $spacing auto;
+  padding: 0 $spacing;
+}
+
+// PrimeReact Customizations
+.p-dropdown-items,
+.p-autocomplete-items {
+  padding: $spacing;
+}
+
+.p-dropdown-panel,
+.p-autocomplete-panel,
+.p-datepicker-multiple-month {
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+  margin-top: $double-spacing;
+
+  // Datepicker-specific adjustments
+  &.p-datepicker-multiple-month {
+    margin-top: $double-spacing;
+    padding: $double-spacing;
+
+    .p-datepicker-group,
+    .p-datepicker-header {
+      border: none;
+    }
+
+    & .p-datepicker-group:last-child {
+      padding-left: $double-spacing;
+    }
+  }
+}
+
+.p-highlight {
+  background: $primary-color;
+  color: $primary-color-text;
+}
+
+.p-calendar:not(.p-calendar-disabled).p-focus > .p-inputtext {
+  box-shadow: none;
+}
+
+// Search Container
+.search-container {
+  text-align: center;
+
+  .search-title {
+    padding-top: 8px;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: $double-spacing 0;
+    color: $text-color;
+  }
+
+  .search-wrapper {
+    padding: 20px;
+    border-radius: $border-radius;
+    border: 1px solid #ccc;
+    background: $primary-color-text;
+    box-shadow: $box-shadow;
+    margin-bottom: $double-spacing;
+    display: flex;
+
+    .search-inputs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: $spacing;
+      flex-grow: 1;
+      align-items: center;
+      padding-left: $spacing;
+
+      .search-input {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        flex-grow: 1;
+        height: auto;
+        border-right: 2px solid #ccc;
+
+        &:last-child {
+          border-right: none;
+        }
+
+        label {
+          font-weight: 600;
+          line-height: 1;
+        }
+
+        .p-inputtext,
+        .p-dropdown {
+          border: none;
+          padding: 0 12px 0 0;
+          color: $text-color;
+        }
+
+        .p-dropdown,
+        .p-inputtext.p-component {
+          padding-top: 8px;
+        }
+
+        .p-autocomplete-dropdown,
+        .p-dropdown-trigger,
+        .p-button-icon-only {
+          background: none;
+          border: none;
+          color: $text-color;
+          width: 44px;
+          box-shadow: none;
+        }
+
+        .p-component.p-autocomplete-input {
+          padding-top: 0px;
+        }
+
+        .p-button.p-button-icon-only {
+          padding-bottom: 0px;
+          margin-right: 14px;
+        }
+
+        &.active {
+          .p-inputtext,
+          .p-inputtext.p-dropdown-label {
+            color: $primary-color;
+          }
+        }
+      }
+    }
+
+    .p-button.btn-search {
+      border-radius: $border-radius;
+      padding: 15px 30px;
+      margin-left: $spacing;
+    }
+  }
+}
+
+// Dialog Customizations
+.p-dialog {
+  $modal-border-radius: 36px;
+  border-radius: $modal-border-radius;
+  box-shadow: $box-shadow;
+
+  .p-dialog-content {
+    padding-bottom: $spacing;
+    border-radius: 0;
+  }
+
+  &.content-rounded {
+    .p-dialog-content {
+      border-radius: $modal-border-radius;
+    }
+  }
+
+  .p-dialog-header {
+    padding-left: 38px;
+    border-radius: $modal-border-radius $modal-border-radius 0 0;
+  }
+
+  .p-dialog-footer {
+    border-radius: 0 0 $modal-border-radius $modal-border-radius;
+    padding: 0 $spacing $spacing;
+
+    button {
+      margin: 0;
+      padding: $spacing;
+      margin-left: $spacing;
+
+      &.p-splitbutton-menubutton {
+        margin-left: 0;
+      }
+    }
+
+    .btn-container {
+      button {
+        box-shadow: $box-shadow;
+      }
+    }
+  }
+}
+
+// Dropdown Customizations
+.p-dropdown-panel .p-dropdown-items .p-dropdown-item {
+  border-radius: $border-radius;
+}
+
+.p-button-text {
+  box-shadow: none;
+}
