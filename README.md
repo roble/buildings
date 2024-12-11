@@ -46,7 +46,7 @@ The task involves creating a feature that allows users to download a time series
    - Table columns and data adapt to the selected asset type (e.g., temperature/humidity for rooms, energy/cost for meters).
 
 **Error Handling**:
-   - **10% of API requests intentionally fail** to simulate real-world scenarios and test the app’s error handling capabilities.
+   - **30% of API requests intentionally fail** to simulate real-world scenarios and test the app’s error handling capabilities.
    - Error messages and retry options displayed in a user-friendly manner.
 
 **Mock API Integration**:

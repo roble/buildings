@@ -70,8 +70,8 @@ export const handlers = [
 
     await delay();
 
-    //Failed to fetch data 10% of the time
-    if (Math.random() < 0.1) {
+    //Failed to fetch data 30% of the time
+    if (Math.random() < 0.3) {
       return HttpResponse.json(
         { message: "Failed to fetch data. Please try again." },
         { status: 500 }
