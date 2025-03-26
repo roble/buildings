@@ -116,7 +116,7 @@ The task involves creating a feature that allows users to download a time series
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/roble/opn-buildings.git
+   git clone https://github.com/roble/buildings.git
    ```
 
 2. Install dependencies:
