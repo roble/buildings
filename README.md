@@ -1,4 +1,4 @@
-# OPN Buildings
+# Buildings
 
 A web application for managing building metrics, including room and meter data, with real-time search capabilities, user-friendly UI/UX, and mock API integration.
 
@@ -31,7 +31,7 @@ The task involves creating a feature that allows users to download a time series
 
 ## Approach
 
-### **Key Points of the OPN Buildings Design**
+### **Key Points of the Buildings Design**
 
 **User-Centric Approach**:
    - Simplified workflows for users to search, filter, and view building metrics.
@@ -97,8 +97,8 @@ The task involves creating a feature that allows users to download a time series
 
 - The design prioritizes simplicity and accessibility, leveraging color contrasts and clear labels.
 - Fully responsive interface for desktops and tablets.
-- **Interactive Prototype**: [View Prototype](https://www.figma.com/proto/5fS8HvhLB86etBmvHtQN5x/OPN-Buildings?node-id=0-1&t=OslvGxoESSX9cmB7-1)
-- **Figma Design**: [View Design](https://www.figma.com/design/5fS8HvhLB86etBmvHtQN5x/OPN-Buildings?node-id=0-1&t=OslvGxoESSX9cmB7-1)
+- **Interactive Prototype**: [View Prototype](https://www.figma.com/proto/5fS8HvhLB86etBmvHtQN5x/Buildings?node-id=0-1&t=OslvGxoESSX9cmB7-1)
+- **Figma Design**: [View Design](https://www.figma.com/design/5fS8HvhLB86etBmvHtQN5x/Buildings?node-id=0-1&t=OslvGxoESSX9cmB7-1)
 
 
 ---
